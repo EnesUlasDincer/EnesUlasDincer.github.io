@@ -6,23 +6,33 @@
 
 /* Styling for Another University Logo */
 .kuis-ai-logo {
-    width: 180px; /* Adjust the width as needed */
+    width: 152px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     /* Add any other specific styles for Another University Logo */
 }
 
 /* Styling for Another University Logo */
 .rml-logo {
-    width: 250px; /* Adjust the width as needed */
-    height: 93px; /* Maintain aspect ratio */
+    width: 370px; /* Adjust the width as needed */
+    height: 150px; /* Maintain aspect ratio */
     /* Add any other specific styles for Another University Logo */
 }
 
 /* Styling for Another University Logo */
 .itu-logo {
-    width: 175px; /* Adjust the width as needed */
+    width: 500px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     /* Add any other specific styles for Another University Logo */
+}
+
+.itu-container {
+    display: flex; /* Use flexbox to control alignment */
+    justify-content: center; /* Align items horizontally to the left */
+}
+
+.itu-container img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Styling for Another University Logo */
@@ -72,3 +82,20 @@
 .education-details {
     margin-top: 10px; /* Add spacing between logos and details */
 }
+
+
+.image-container {
+    display: flex; /* Use flexbox to put the images side by side */
+    justify-content: center; /* Align items vertically in the center */
+}
+
+.image-container a {
+    display: inline-block; /* Make the anchor elements inline-block */
+    margin: 0 5px; /* Add some margin around the images */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
